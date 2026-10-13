@@ -16,3 +16,10 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+
+import math
+print("Surface area of a cone")
+r = float(input("radius = "))
+h = float(input("height = "))
+sa = math.pi * r * (r + math.sqrt(math.pow(h , 2) + math.pow(r , 2)))
+print(f"The surface area of the cone is: {sa}")

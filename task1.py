@@ -12,13 +12,19 @@ Sample output:
 
 example:
 What is your name:Dwayne Johnson
-What ir your email:rock@aol.com
+What is your email:rock@aol.com
 
 Your name is Dwayne Johnson, and your email is rock@aol.com
 
 What is your name:Jackie Chan
-What ir your email:crazyAsian@qq.com
+What is your email:crazyAsian@qq.com
 
 Your name is Jackie Chan, and your email is crazyAsian@qq.com
 
 """
+
+name = ("What is your name? ")
+email = ("What is your email? ")
+name_answer = input(name)
+email_answer = input(email)
+print(f"You have entered the following information\nName: {name_answer}\nEmail: {email_answer}")
